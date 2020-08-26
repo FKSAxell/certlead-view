@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+    /*.bg-light {
+        background-color: white !important;
+    }
+    .ant-layout-header {
+        height: 64px;
+        padding: 0 50px;
+        color: rgba(0, 0, 0, 0.65);
+        line-height: 64px;
+        background-color: white !important;
+    }*/
+    }
+
+/*.ant-layout-header {
+    height: 64px;
+    padding: 0 50px;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 64px;
+   background:transparent;
+}
+.bg-light {
+    background-color: transparent !important;
+}*/
+

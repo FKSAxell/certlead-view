@@ -26,18 +26,18 @@ class Redes extends Component {
                 <Row justify="center" className="middle" gutter={[16, 16]} >
 
                     <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }} style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <a className="btn2" href="#">
+                        <a className="btn2" href="https://www.facebook.com/axellconcha">
                             <i className="fab fa-facebook-f"></i>
                         </a>
                     </Col>
 
                     <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }} style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <a className="btn2" href="#">
+                        <a className="btn2" href="https://twitter.com/axellcrk">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </Col>
                     <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }} style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <a className="btn2" href="#">
+                        <a className="btn2" href="https://www.instagram.com/axellcrk/">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </Col>

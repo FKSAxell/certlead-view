@@ -27,7 +27,7 @@ class Asociados extends Component {
                 <Row justify="center" align="middle">
                     <h1 ><div className="marcatext">Nuestros</div> Asociados<hr /></h1>
                 </Row>
-                <Row justify="space-around" align="middle" gutter={[16, 16]} >
+                <Row justify="space-around" align="middle" gutter={[16, 48]}>
 
                     <Col xs={{ span: 24 }} md={{ span: 12 }} lg={{ span: 8 }} style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
                         <img className="asociado" src={sgs} />

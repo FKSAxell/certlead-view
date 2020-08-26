@@ -79,11 +79,17 @@ h1,h2,h3,h4,h5,h6,p,a{
 h1{
   font-size: 3em;
 }
+a{
+  color:rgb(25, 121, 158);
+}
 p{
   text-align: justify;
   text-justify: inter-word;
   font-size: 1.5em;
 }
+Footer p{
 
+  font-size: 1.2em;
+}
 
 

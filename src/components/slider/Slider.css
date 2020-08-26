@@ -1,6 +1,10 @@
 /* Slider */
 @media screen and (max-width: 768px) {
      .celular {display:none; visibility: hidden; clear: both;}
+     .carousel-caption h3{
+      font-size: 3em !important;
+      
+    }
      }
    
      .Carousel-slide{
@@ -27,7 +31,7 @@
      border: 1px solid  rgb(25, 121, 158) ;
    }
    .carousel-caption h4{
-     font-size: 3em;
+     font-size: 2em;
      color:black;
      
    }

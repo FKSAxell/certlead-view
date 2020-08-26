@@ -29,13 +29,13 @@ class Certificados extends Component {
           <div class="py-5">
             <Row justify="center" align="middle">
               <Certificado text="IT GOVERNANCE & SERVICE MANAGEMENT" img="https://img.freepik.com/foto-gratis/trabajador-sexo-masculino-fabrica_1303-14306.jpg?size=626&ext=jpg" />
-              <Certificado text="SCRUM" img="https://miro.medium.com/max/11128/1*Cr6rEZ9PuolDk6tdv2Dicw.jpeg" />
-              <Certificado text="PITCH" img="https://live.staticflickr.com/65535/49649169217_39c5521920_b.jpg" />
+              <Certificado text="SCRUM MASTER PROFESSIONAL" img="https://miro.medium.com/max/11128/1*Cr6rEZ9PuolDk6tdv2Dicw.jpeg" />
+              <Certificado text="DESIGN THINKING" img="https://live.staticflickr.com/65535/49649169217_39c5521920_b.jpg" />
             </Row>
           </div>
 
           <Row justify="center" align="middle">
-            <Button className="vermas" size="large">Ver más Certificaciones</Button>
+            <Button className="vermas" type="primary">Ver más Certificaciones</Button>
           </Row>
 
         

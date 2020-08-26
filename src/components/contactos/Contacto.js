@@ -9,7 +9,7 @@ import {
 const { Header, Content, Footer, Sider } = Layout;
 const { Option } = Select;
 class Contacto extends Component {
-    
+
     constructor(props) {
         super(props);
         this.state = {
@@ -18,9 +18,9 @@ class Contacto extends Component {
     }
 
     render() {
-      
-   
-      
+
+
+
         const layout = {
             labelCol: { span: 8 },
             wrapperCol: { span: 16 },
@@ -41,8 +41,8 @@ class Contacto extends Component {
             emailjs.send("default_service", "template_L3T9cJUp", values, "user_yoQTrAU2UNMpwNj7m7l2t")
                 .then((response) => {
                     console.log("SUCCESS!", response.status, response.text);
-                    
-                    
+
+
                 }, (err) => {
                     console.log("FAILED...", err);
                 });
@@ -58,7 +58,7 @@ class Contacto extends Component {
             </Form.Item>
         );
         return (
-            <Form  name="nest-messages" onFinish={onFinish} validateMessages={validateMessages}>
+            <Form name="nest-messages" onFinish={onFinish} validateMessages={validateMessages}>
 
                 <Form.Item name='name' label="Nombres" rules={[{ required: true, message: '¡Ingrese sus nombres!' }]}>
                     <Input />
@@ -82,9 +82,9 @@ class Contacto extends Component {
                 </Form.Item>
 
                 <Form.Item style={{ textAlign: "center" }} >
-                    <Button className="vermas" htmlType="submit">
+                    <Button className="vermas" type="primary" htmlType="submit">
                         Enviar
-                                </Button>
+                    </Button>
                 </Form.Item>
 
             </Form>

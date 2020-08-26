@@ -1,0 +1,21 @@
+.menu{
+    list-style: none;
+    font-size: 25px;
+}
+
+.parrafo{
+    font-size:1.2em;
+}
+.btn-suscribirse{
+    font-family: "ModernSans-Light";
+    font-size:1em;
+    background: #19799E;
+    border-color: #19799E;
+}
+.logoFooter{
+    width: 80%;
+    padding-top: 50px;
+}
+.menu li Button{
+    font-size: 20px;
+}
