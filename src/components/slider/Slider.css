@@ -1,0 +1,41 @@
+/* Slider */
+@media screen and (max-width: 768px) {
+     .celular {display:none; visibility: hidden; clear: both;}
+     }
+   
+     .Carousel-slide{
+       height: 93.5vh;
+       float: right;
+     }
+   
+   
+   
+   /* For text de slider */
+   .carousel-caption{
+     font-family: "ModernSans-Light";
+     text-align: left  !important;
+     right: auto !important;
+     bottom:20%; 
+     margin-right: 15%;
+     
+   }
+   .carousel-caption h3{
+     font-size: 4em;
+     
+   }
+    hr{
+     border: 1px solid  rgb(25, 121, 158) ;
+   }
+   .carousel-caption h4{
+     font-size: 3em;
+     color:black;
+     
+   }
+   /*.ant-carousel .slick-slide h3 {
+     color: rgba(0, 0, 0, 0.65);
+     font-size:5em;
+     
+     border:1px solid;
+     
+   
+   }*/

@@ -1,0 +1,89 @@
+@import '~antd/dist/antd.css';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@font-face{
+  font-family: "ModernSans-Light";
+  src: url("./font/ModernSans-Light.otf")
+}
+.App {
+  text-align: center;
+}
+/**Pagina de error */
+.div-404 {
+  background-position: center;
+  background-image: url('./img/error404.png');
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  background-repeat: no-repeat;  
+  background-size: contain;
+}
+/* For utils */
+.seccion{
+  height:  100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.marcatext{
+  color: #19799E;
+  display: inline;
+}
+
+.tituloSeccion{
+  margin-top: 20px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+/** header*/
+.header{
+ 
+  background: transparent;  
+  
+}
+.logo img{
+  width: 120px;
+}
+.menu{
+  font-family: "ModernSans-Light";
+  font-size: 150%;
+  background: transparent;
+  
+}
+.ant-menu-horizontal{
+  border-bottom: 0px;
+}
+.ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected {
+  color:rgb(25, 121, 158) ;
+  border-bottom:2px solid rgb(25, 121, 158) ;
+}
+
+.fullscreen{
+  background: url(img/fondo.jpg)  no-repeat;
+  background-size: 100vw 100vh ;
+}
+
+
+
+
+
+
+/* For text color*/
+h1,h2,h3,h4,h5,h6,p,a{
+  font-family: "ModernSans-Light";
+}
+
+h1{
+  font-size: 3em;
+}
+p{
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.5em;
+}
+
+
+
