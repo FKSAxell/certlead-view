@@ -1,8 +1,8 @@
 import React, { Component } from "react"
 import { Row, Col } from "antd";
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout } from 'antd';
 import './Nosotros.css';
-const { Header, Content, Footer, Sider } = Layout;
+const { Content } = Layout;
 class Nosotros extends Component {
     constructor(props) {
         super(props);
@@ -16,7 +16,7 @@ class Nosotros extends Component {
     render() {
 
         return (
-            <Content  id="sec-somos" style={{ height: "100%", padding: "20px 20px 20px 20px" }}>
+            <Content id="sec-somos" style={{ height: "100%", padding: "20px 20px 20px 20px" }}>
                 <Row justify="space-around" align="middle" >
                     <Col xs={{ span: 24 }} lg={{ span: 10 }}>
                         <Row >

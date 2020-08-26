@@ -1,6 +1,6 @@
 import { Navbar } from 'react-bootstrap';
 import React, { Component } from "react"
-import { Row, Col ,Button, Form, Input, InputNumber, Avatar } from "antd";
+import { Row, Col, Button, Form, Input, InputNumber, Avatar, BackTop } from "antd";
 import logo from "../img/logo.png"
 import Slider from "../components/slider/Slider"
 import Certificados from "../components/certificados/Certificados";
@@ -15,7 +15,9 @@ import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/
 import { OverPack } from 'rc-scroll-anim';
 import TweenOne from 'rc-tween-one';
 import QueueAnim from 'rc-queue-anim';
-
+import {
+  ArrowUpOutlined
+} from '@ant-design/icons';
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -48,12 +50,25 @@ class HomePage extends Component {
     const onFinish = values => {
       console.log(values);
     };
+    const style = {
+      height: 60,
+      width: 60,
+      lineHeight: '50px',
+      borderRadius: 50,
+      backgroundColor: '#19799E',
+      color: '#fff',
+      textAlign: 'center',
+      fontSize: 20,
+    };
     return (
 
 
       <Layout >
+        <BackTop>
+          <div style={style}><ArrowUpOutlined /></div>
+        </BackTop>
         <div className="fullscreen">
-          <MenuNav/>
+          <MenuNav />
           <Slider />
         </div>
 

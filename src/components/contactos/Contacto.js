@@ -1,12 +1,7 @@
 import React, { Component } from "react"
-import { Row, Col, Button, Card } from "antd";
-import { Layout, Menu, Form, Input, InputNumber, Breadcrumb, Select } from 'antd';
+import { Button } from "antd";
+import { Form, Input, Select } from 'antd';
 import emailjs from "emailjs-com";
-import {
-    RightCircleOutlined
-} from '@ant-design/icons';
-
-const { Header, Content, Footer, Sider } = Layout;
 const { Option } = Select;
 class Contacto extends Component {
 

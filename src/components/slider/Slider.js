@@ -1,11 +1,9 @@
 import React, { Component } from "react"
-import { Divider, Row, Col } from "antd";
 import './Slider.css';
 import empresario from "../../img/empresario.png"
 import empresario2 from "../../img/empresario2.png"
 import empresario3 from "../../img/empresario3.png"
 import Carousel from 'react-bootstrap/Carousel'
-
 import { OverPack } from 'rc-scroll-anim';
 import TweenOne from 'rc-tween-one';
 import QueueAnim from 'rc-queue-anim';

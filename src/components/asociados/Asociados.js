@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Row, Col } from "antd";
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout } from 'antd';
 import './Asociados.css';
 import sgs from "../../img/sgs.png"
 import camara from "../../img/camara.png"
@@ -8,7 +8,7 @@ import consafety from "../../img/consafety.png"
 import energycontrol from "../../img/energycontrol.png"
 import semgroup from "../../img/semgroup.png"
 import certiprof from "../../img/certiprof.png"
-const { Header, Content, Footer, Sider } = Layout;
+const { Content } = Layout;
 class Asociados extends Component {
     constructor(props) {
         super(props);
@@ -16,9 +16,6 @@ class Asociados extends Component {
 
         };
     }
-    /**
-     *  
-     */
     render() {
 
         return (

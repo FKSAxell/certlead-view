@@ -1,23 +1,11 @@
 import React, { Component } from "react"
 import { Row, Col, } from "antd";
-import { Layout, Menu, Breadcrumb, Input } from 'antd';
+import { Layout, Menu } from 'antd';
 import './MenuNav.css';
 import logo from "../../img/logo.png"
-import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
-import Nav from 'react-bootstrap/Nav'
-import Button from 'react-bootstrap/Button'
-import Form from 'react-bootstrap/Form'
-import FormControl from 'react-bootstrap/FormControl'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    useParams
-  } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 const { SubMenu } = Menu;
-const { Header, Content, Footer, Sider } = Layout;
+const { Header} = Layout;
 class MenuNav extends Component {
     constructor(props) {
         super(props);

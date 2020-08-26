@@ -1,10 +1,8 @@
 import React, { Component } from "react"
 import { Row, Col } from "antd";
-import { Layout, Menu, Breadcrumb, Avatar } from 'antd';
+import { Layout } from 'antd';
 import './Redes.css';
-import sgs from "../../img/sgs.png"
-
-const { Header, Content, Footer, Sider } = Layout;
+const { Content } = Layout;
 class Redes extends Component {
     constructor(props) {
         super(props);

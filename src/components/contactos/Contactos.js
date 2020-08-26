@@ -1,13 +1,9 @@
 import React, { Component } from "react"
-import { Row, Col, Button, Card } from "antd";
-import { Layout, Menu, Form, Input, InputNumber, Breadcrumb,Select } from 'antd';
+import { Row, Col } from "antd";
+import { Layout } from 'antd';
 import Contacto from "./Contacto"
-import {
-    RightCircleOutlined
-} from '@ant-design/icons';
+const { Content } = Layout;
 
-const { Header, Content, Footer, Sider } = Layout;
-const { Option } = Select;
 class Contactos extends Component {
     constructor(props) {
         super(props);
@@ -36,7 +32,7 @@ class Contactos extends Component {
                     </Col>
                     <Col xs={{ span: 24 }} lg={{ span: 10 }} >
 
-                        <Contacto/>
+                        <Contacto />
                     </Col>
                 </Row>
             </Content>

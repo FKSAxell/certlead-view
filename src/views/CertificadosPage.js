@@ -1,25 +1,10 @@
-import { Navbar } from 'react-bootstrap';
 import React, { Component } from "react"
-import { Row, Col, Button, Form, Input, InputNumber, Avatar } from "antd";
-import logo from "../img/logo.png"
-import Slider from "../components/slider/Slider"
-import Certificados from "../components/certificados/Certificados";
+import { Row, Col } from "antd";
 import Certificado from "../components/certificados/Certificado";
-import Nosotros from "../components/nosotros/Nosotros"
-import Asociados from '../components/asociados/Asociados';
-import Contactos from '../components/contactos/Contactos';
-import Redes from "../components/redes/Redes"
 import MenuFooter from "../components/menufooter/MenuFooter";
 import MenuNav from "../components/menu/MenuNav";
-import { Layout, Menu, Breadcrumb } from 'antd';
-import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
-import { OverPack } from 'rc-scroll-anim';
-import TweenOne from 'rc-tween-one';
-import QueueAnim from 'rc-queue-anim';
-import { HashLink as Link } from 'react-router-hash-link';
-const { SubMenu } = Menu;
-
-const { Header, Content, Footer, Sider } = Layout;
+import { Layout } from 'antd';
+const { Content, Footer } = Layout;
 
 
 
@@ -37,8 +22,9 @@ class CertificadosPage extends Component {
 
 
             <Layout >
+
                 <div className="fullscreen" id="sec-certificados">
-                    <MenuNav/>
+                    <MenuNav />
 
                 </div>
 

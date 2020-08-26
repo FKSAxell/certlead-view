@@ -1,15 +1,10 @@
 import React, { Component } from "react"
 import { Row, Col, Button } from "antd";
-import { Layout, Menu, Breadcrumb, Input } from 'antd';
+import { Layout, Input } from 'antd';
 import './MenuFooter.css';
 import logo from "../../img/logo.png"
-import camara from "../../img/camara.png"
-import consafety from "../../img/consafety.png"
-import energycontrol from "../../img/energycontrol.png"
-import semgroup from "../../img/semgroup.png"
-import certiprof from "../../img/certiprof.png"
 import { HashLink as Link } from 'react-router-hash-link';
-const { Header, Content, Footer, Sider } = Layout;
+const { Content } = Layout;
 class MenuFooter extends Component {
     constructor(props) {
         super(props);
