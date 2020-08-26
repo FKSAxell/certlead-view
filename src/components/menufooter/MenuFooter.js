@@ -8,6 +8,7 @@ import consafety from "../../img/consafety.png"
 import energycontrol from "../../img/energycontrol.png"
 import semgroup from "../../img/semgroup.png"
 import certiprof from "../../img/certiprof.png"
+import { HashLink as Link } from 'react-router-hash-link';
 const { Header, Content, Footer, Sider } = Layout;
 class MenuFooter extends Component {
     constructor(props) {
@@ -29,31 +30,31 @@ class MenuFooter extends Component {
                         <div>
                             <Row><h5>Navegación</h5></Row>
 
-                            <Row >
+                            <Row  >
 
                                 <Col>
                                     <ul className="menu">
                                         <li>
-                                            <Button type="link">Certificaciones</Button>
+                                            <Link to="/certificados#sec-certificados" ><div style={{fontSize:"0.8em"}}>Certificaciones</div></Link>
                                         </li>
                                         <li>
-                                            <Button type="link">Sobre Nosotros</Button>
+                                            <Link to="/certlead-view#sec-somos"><div style={{fontSize:"0.8em"}}>Sobre Nosotros</div></Link>
                                         </li>
                                         <li>
-                                            <Button type="link">Asociados</Button>
+                                            <Link to="/certlead-view#sec-asociado"><div style={{fontSize:"0.8em"}}>Asociados</div></Link>
                                         </li>
                                         <li>
-                                            <Button type="link">Contacto</Button>
+                                            <Link to="/certlead-view#sec-contacto"><div style={{fontSize:"0.8em"}}>Contacto</div></Link>
                                         </li>
                                     </ul>
                                 </Col>
                                 <Col>
                                     <ul className="menu">
                                         <li>
-                                            <Button type="link"> Asóciate</Button>
+                                            <Link to="#"><div style={{fontSize:"0.8em"}}>Asóciate</div></Link>
                                         </li>
                                         <li>
-                                            <Button type="link">Compañias</Button>
+                                            <Link to="#"><div style={{fontSize:"0.8em"}}>Compañias</div></Link>
                                         </li>
                                     </ul>
                                 </Col>

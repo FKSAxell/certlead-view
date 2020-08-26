@@ -22,7 +22,7 @@ class Asociados extends Component {
     render() {
 
         return (
-            <Content style={{ height: "100%", padding: "20px 20px 20px 20px" }}>
+            <Content id="sec-asociado" style={{ height: "100%", padding: "20px 20px 20px 20px" }}>
 
                 <Row justify="center" align="middle">
                     <h1 ><div className="marcatext">Nuestros</div> Asociados<hr /></h1>

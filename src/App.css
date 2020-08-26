@@ -4,8 +4,14 @@
   font-family: "ModernSans-Light";
   src: url("./font/ModernSans-Light.otf")
 }
+html {
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
+}
+.py-5 {
+   padding-top: 0rem !important; 
 }
 /**Pagina de error */
 .div-404 {
@@ -44,7 +50,7 @@
   background: transparent;  
   
 }
-.logo img{
+.logo {
   width: 120px;
 }
 .menu{
@@ -80,7 +86,8 @@ h1{
   font-size: 3em;
 }
 a{
-  color:rgb(25, 121, 158);
+  color:rgb(25, 121, 158) !important;
+  text-decoration: none !important;
 }
 p{
   text-align: justify;

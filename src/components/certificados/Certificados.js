@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { Row, Col, Button, Card } from "antd";
 import { Layout, Menu, Breadcrumb } from 'antd';
 import Certificado from "./Certificado"
-
+import { HashLink as Link } from 'react-router-hash-link';
 import {
   RightCircleOutlined
 } from '@ant-design/icons';
@@ -35,7 +35,7 @@ class Certificados extends Component {
           </div>
 
           <Row justify="center" align="middle">
-            <Button className="vermas" type="primary">Ver más Certificaciones</Button>
+            <Button className="vermas colora" type="primary" href="/certificados"><div style={{color:"white"}}>Ver más Certificaciones</div></Button>
           </Row>
 
         

@@ -1,8 +1,7 @@
 import { Navbar } from 'react-bootstrap';
 import React, { Component } from "react"
-import { Row, Col, Button, Form, Input, InputNumber, Avatar } from "antd";
+import { Row, Col ,Button, Form, Input, InputNumber, Avatar } from "antd";
 import logo from "../img/logo.png"
-
 import Slider from "../components/slider/Slider"
 import Certificados from "../components/certificados/Certificados";
 import Nosotros from "../components/nosotros/Nosotros"
@@ -18,7 +17,6 @@ import TweenOne from 'rc-tween-one';
 import QueueAnim from 'rc-queue-anim';
 
 
-const { SubMenu } = Menu;
 const { Header, Content, Footer, Sider } = Layout;
 
 
@@ -55,10 +53,10 @@ class HomePage extends Component {
 
       <Layout >
         <div className="fullscreen">
-        <MenuNav/>
+          <MenuNav/>
           <Slider />
         </div>
-        
+
         <Content style={{ padding: '0 0px' }}>
 
           <Layout className="site-layout-background">

@@ -4,6 +4,7 @@ import './App.css';
 import { Spin } from 'antd'
 import HomePage from "./views/HomePage"
 import Error404 from "./views/Error404"
+import CertificadosPage from "./views/CertificadosPage"
 
 const App = ({ history }) => {
   return (
@@ -12,6 +13,7 @@ const App = ({ history }) => {
         
         <Switch>
           <Route path='/certlead-view' component={HomePage} exact />
+          <Route path='/certificados' component={CertificadosPage} exact />
           <Route path="/*" component={Error404} />
         </Switch>
       </BrowserRouter>

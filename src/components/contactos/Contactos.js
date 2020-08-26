@@ -18,7 +18,7 @@ class Contactos extends Component {
 
     render() {
         return (
-            <Content style={{ height: "100%", padding: "20px 20px 20px 20px" }}>
+            <Content id="sec-contacto" style={{ height: "100%", padding: "20px 20px 20px 20px" }}>
                 <Row justify="space-around" align="middle">
                     <Col xs={{ span: 24 }} lg={{ span: 10 }}>
                         <Row >

@@ -19,7 +19,7 @@ class Certificado extends Component {
     render() {
 
         return (
-      <div class="col-lg-4 mb-3 mb-lg-0">
+      <div class="col-lg-4 mb-3 mb-lg-0" style={{marginTop:"10px"}}>
         <div class="hover hover-5 text-white rounded"><img src={this.props.img} alt=""/>
           <div class="hover-overlay"></div>
           <div class="hover-5-content">
