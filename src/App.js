@@ -11,7 +11,7 @@ const App = ({ history }) => {
       <BrowserRouter history={history}>
         
         <Switch>
-          <Route path='/' component={HomePage} exact />
+          <Route path='/certlead-view' component={HomePage} exact />
           <Route path="/*" component={Error404} />
         </Switch>
       </BrowserRouter>
