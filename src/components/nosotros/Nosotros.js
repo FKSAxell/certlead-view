@@ -16,7 +16,7 @@ class Nosotros extends Component {
     render() {
 
         return (
-            <Content id="sec-somos" style={{ height: "100%", padding: "20px 20px 20px 20px" }}>
+            <Content id="sec-somos" style={{ height: "100%", padding: "20px 20px 20px 20px",marginTop:"50px",marginBottom:"50px"}}>
                 <Row justify="space-around" align="middle" >
                     <Col xs={{ span: 24 }} lg={{ span: 10 }}>
                         <Row >

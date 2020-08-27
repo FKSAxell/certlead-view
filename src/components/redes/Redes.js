@@ -24,23 +24,23 @@ class Redes extends Component {
                 <Row justify="center" className="middle" gutter={[16, 16]} >
 
                     <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }} style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <a className="btn2" href="https://www.facebook.com/axellconcha">
+                        <a className="btn2" target="_blank" href="https://www.facebook.com/certlead">
                             <i className="fab fa-facebook-f"></i>
                         </a>
                     </Col>
 
                     <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }} style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <a className="btn2" href="https://twitter.com/axellcrk">
+                        <a className="btn2" target="_blank" href="https://twitter.com/certlead_">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </Col>
                     <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }} style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <a className="btn2" href="https://www.instagram.com/axellcrk/">
+                        <a className="btn2" target="_blank"  href="https://www.instagram.com/certlead/">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </Col>
                     <Col xs={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }} style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <a className="btn2" href="#">
+                        <a className="btn2" target="_blank"  href="https://www.linkedin.com/company/certlead/">
                             <i className="fab fa-linkedin-in"></i>
                         </a>
                     </Col>
