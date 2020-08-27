@@ -23,11 +23,11 @@ class Nosotros extends Component {
                             <h1><div className="marcatext">Sobre</div> Nosotros<hr /></h1>
                         </Row>
                         <p>
-                            Hace 3 años un grupo de jóvenes de latinoamericanos en la ciudad de Washington D.C. soñaban en una manera de agragar valor a los ciudadanos del mundo, todos de carrera diferentes desde ciencias humanisticas a ingenierias.
-                            </p>
+                        Certlead es una organización  internacional que se dedica certificar y generar conocimiento de alto nivel, en varios países alrededor del mundo, donde se rige a altos estándares de calidad y certificación.
+                        </p>
                         <p>
-                            Hoy esa idea ya es una relidad, estamos establecidos en 5 países del mundo aportando a la profesionalización de personas con los mismo sueños que nososotros, hacer de este mundo cada día mejor.
-                            </p>
+                        Certlead trabaja arduamente en pro de la sociedad del conocimiento para lograr que más líderes alcancen su propósito en la vida.  
+                        </p>
                     </Col>
                     <Col xs={{ span: 24 }} lg={{ span: 10 }} >
 
